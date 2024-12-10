@@ -1,0 +1,3 @@
+# Node.js Server Unresponsiveness Due to Synchronous Long Operation
+
+This repository demonstrates a common issue in Node.js servers where a long-running synchronous operation in the request handler can cause the server to hang or become unresponsive.  The `bug.js` file contains the problematic code. The solution involves refactoring the code to use asynchronous operations.  The solution is provided in `bugSolution.js`.
